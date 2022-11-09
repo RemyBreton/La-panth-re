@@ -1042,6 +1042,11 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .row .col-sm-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (max-width: 400px) {
