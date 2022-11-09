@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -25,6 +29,20 @@ a:hover {
     width: 100%;
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+}
+
+blockquote {
+	border: none;
+    margin-bottom: 0;
+}
+
+blockquote p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.quote-name {
+    font-size: 20px;
 }
 
 .bloc {
@@ -133,7 +151,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +168,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: white;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -281,6 +299,11 @@ a:hover {
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
+}
+
+.col-sm-4 span {
+    color: white;
+    font-size: 16px;
 }
 
 #bloc-1-hero h1 {
@@ -651,7 +674,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -677,7 +700,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -775,7 +798,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFF!important;
 }
 
 .btn-atomic-tangerine {
